@@ -8,6 +8,7 @@ import { useRef } from "react";
 import { Character } from "./Character";
 import { Map } from "./Map";
 import { Physics } from "@react-three/rapier";
+import { CharacterController } from "./CharacterController";
 
 const maps = {
   castle_on_hills: {
@@ -69,7 +70,7 @@ export const Experience = () => {
         position={maps[map].position}
         model={`models/${map}.glb`}
         />
-      <Character scale={0.18} position-y={-0.25} animation={"idle"} />
+      <CharacterController />
         </Physics>
     </>
   );
