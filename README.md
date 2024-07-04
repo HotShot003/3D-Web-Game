@@ -101,6 +101,8 @@ Make sure you have the following installed:
 
 [![Live Demo](https://img.shields.io/badge/LiveDemo%20-%23276DC3.svg?&style=for-the-badge&logo=&logoColor=white)](https://3d-web-game-by-anuragpadhiyar.netlify.app/)
 
+#### NOTE : If Character Not Visible Or Map Stuck Please Reload Page It Will Probably Fix It
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request.
