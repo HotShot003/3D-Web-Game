@@ -40,6 +40,22 @@ R3F provides a declarative way to build 3D scenes using React's component-based 
   
 - **Extensibility**: It supports Three.js plugins and custom shaders, giving you the flexibility to create advanced 3D graphics.
 
+## Controls 
+
+- A : For Moving in Left Direction
+
+- D : For Moving in Right Direction
+
+- S : For Moving BackWard Direction
+
+- W : For Moving Ahead
+
+- SPACE : For Jump
+
+- SHIFT : For Run
+
+- F : Hold F key To WAVE Hi
+
 ## Technologies Used
 
   ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
