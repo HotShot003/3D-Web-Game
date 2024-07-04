@@ -19,7 +19,8 @@ This project features:
 - **Animations**: Smooth and responsive animations.
 
 ## About React Three Fiber 
-  ![React Three Fiber](https://img.shields.io/badge/react_three_fiber-%2361DAFB.svg?&style=for-the-badge&logo=react&logoColor=white)
+
+![React Three Fiber](https://img.shields.io/badge/react_three_fiber-%2361DAFB.svg?&style=for-the-badge&logo=react&logoColor=white)
 
 ### What is React Three Fiber ?
 
@@ -51,7 +52,7 @@ R3F provides a declarative way to build 3D scenes using React's component-based 
 
   ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?&style=for-the-badge&logo=yarn&logoColor=white)
 
-## Getting Started
+# Getting Started
 
 ### Prerequisites
 
@@ -72,17 +73,25 @@ Make sure you have the following installed:
   
 - [City Scene Tokyo](https://sketchfab.com/3d-models/city-scene-tokyo-b25d23ff186949dca3df669c14447db5)
 
+## Images 
+
+<img width="1258" alt="imgmap1" src="https://github.com/HotShot003/Count-Down-Timer/assets/121120034/b5f54c78-81f7-4d6b-bf8f-2463cc9727c9">
+
+<img width="1258" alt="imgmap2" src="https://github.com/HotShot003/Count-Down-Timer/assets/121120034/c77f643f-3045-482f-a88f-6901cfc38a3f">
+
+<img width="1235" alt="imgmap3" src="https://github.com/HotShot003/Count-Down-Timer/assets/121120034/8220c063-bce1-463b-9239-db230b3a17ef">
+
+## Live Demo 
+
+[![Live Demo](https://img.shields.io/badge/LiveDemo%20-%23276DC3.svg?&style=for-the-badge&logo=&logoColor=white)](https://3d-web-game-by-anuragpadhiyar.netlify.app/)
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
 ## Acknowledgements
 
-Special thanks to the creators of the 3D models used in this project.
+Special thanks to the creators of the 3D models used in this project and Also [@Wawa Sensei](https://github.com/wass08) 
 
 ---
 
