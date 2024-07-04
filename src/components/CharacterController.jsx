@@ -146,6 +146,11 @@ export const CharacterController = () => {
         setAnimation("jump");
       }
 
+      // WAVE
+      if (get().wave) {
+        setAnimation("wave");
+      }
+
       character.current.rotation.y = lerpAngle(
         character.current.rotation.y,
         characterRotationTarget.current,

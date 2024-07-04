@@ -7,8 +7,9 @@ const keyboardMap = [
   { name: "backward", keys: ["ArrowDown", "KeyS"] },
   { name: "left", keys: ["ArrowLeft", "KeyA"] },
   { name: "right", keys: ["ArrowRight", "KeyD"] },
-  { name: "run", keys: ["Shift"] },
-  { name: "jump", keys: ["Space"] },
+  { name: "run", keys: ["Shift"] }, // Run
+  { name: "jump", keys: ["Space"] }, // Jump
+  { name: "wave", keys: ["KeyF"] }, // Added wave action
 ];
 
 function App() {
