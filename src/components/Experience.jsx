@@ -1,14 +1,9 @@
-import {
-  Environment,
-  OrbitControls,
-  OrthographicCamera,
-} from "@react-three/drei";
+import { Environment, OrthographicCamera } from "@react-three/drei";
+import { Physics } from "@react-three/rapier";
 import { useControls } from "leva";
 import { useRef } from "react";
-import { Character } from "./Character";
-import { Map } from "./Map";
-import { Physics } from "@react-three/rapier";
 import { CharacterController } from "./CharacterController";
+import { Map } from "./Map";
 
 const maps = {
   castle_on_hills: {
@@ -44,7 +39,7 @@ export const Experience = () => {
 
   return (
     <>
-      <OrbitControls />
+      {/* <OrbitControls /> */}
       <Environment preset="sunset" />
       <directionalLight
         intensity={0.65}
@@ -63,15 +58,14 @@ export const Experience = () => {
           attach={"shadow-camera"}
         />
       </directionalLight>
-      <Physics debug> 
-
-      <Map
-        scale={maps[map].scale}
-        position={maps[map].position}
-        model={`models/${map}.glb`}
+      <Physics key={map}>
+        <Map
+          scale={maps[map].scale}
+          position={maps[map].position}
+          model={`models/${map}.glb`}
         />
-      <CharacterController />
-        </Physics>
+        <CharacterController />
+      </Physics>
     </>
   );
 };
