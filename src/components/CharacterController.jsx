@@ -146,6 +146,11 @@ export const CharacterController = () => {
         setAnimation("jump");
       }
 
+      // FALL
+      if (vel.y < 0 && !isGrounded) {
+        setAnimation("fall");
+      }
+
       // WAVE
       if (get().wave) {
         setAnimation("wave");
